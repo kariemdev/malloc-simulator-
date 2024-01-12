@@ -27,6 +27,7 @@ impl Allocator{
         }
         
     } 
+    fn split_free_block()
     fn init_free_lists(&mut self){
         let mut size_bytes = 16; 
 
